@@ -36,7 +36,7 @@ const contactInfo = [
     icon: Clock,
     title: "Working Hours",
     details: "Mon-Fri: 8am-6pm GMT+6",
-    description: "We're here to help",
+    description: "We&#39;re here to help",
   },
 ]
 
@@ -50,7 +50,7 @@ export default function ContactPage() {
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 2000))
 
-    toast.success("Message sent! We'll get back to you within 24 hours.")
+    toast.success("Message sent! We&#39;ll get back to you within 24 hours.")
 
     setIsSubmitting(false)
 
@@ -71,7 +71,7 @@ export default function ContactPage() {
         >
           <h1 className="text-4xl lg:text-5xl font-bold">Get In Touch</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to start your project? We'd love to hear from you. Send us a message and we'll respond as soon as
+            Ready to start your project? We&#39;d love to hear from you. Send us a message and we&#39;ll respond as soon as
             possible.
           </p>
         </motion.div>
@@ -139,7 +139,7 @@ export default function ContactPage() {
               <CardHeader>
                 <CardTitle>Send us a message</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you as soon as possible.
+                  Fill out the form below and we&#39;ll get back to you as soon as possible.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -194,7 +194,7 @@ export default function ContactPage() {
                         <SelectItem value="10k-25k">$10,000 - $25,000</SelectItem>
                         <SelectItem value="25k-50k">$25,000 - $50,000</SelectItem>
                         <SelectItem value="50k+">$50,000+</SelectItem>
-                        <SelectItem value="discuss">Let's discuss</SelectItem>
+                        <SelectItem value="discuss">Let&#39;s discuss</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -237,7 +237,7 @@ export default function ContactPage() {
             <CardHeader>
               <CardTitle>Visit Our Office</CardTitle>
               <CardDescription>
-                We're located in the heart of Gopalgonj. Feel free to stop by for a consultation.
+                We&#39;re located in the heart of Gopalgonj. Feel free to stop by for a consultation.
               </CardDescription>
             </CardHeader>
             <CardContent>

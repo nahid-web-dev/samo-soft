@@ -189,7 +189,7 @@ export default function HomePage() {
               <div className="space-y-4">
                 <h2 className="text-3xl lg:text-4xl font-bold">Why Choose Samo Soft?</h2>
                 <p className="text-lg text-muted-foreground">
-                  We're passionate about creating digital experiences that drive results. Our team combines creativity
+                  We&#39;re passionate about creating digital experiences that drive results. Our team combines creativity
                   with technical expertise to deliver solutions that exceed expectations.
                 </p>
               </div>
@@ -279,7 +279,7 @@ export default function HomePage() {
             <div className="space-y-4">
               <h2 className="text-3xl lg:text-4xl font-bold">Ready to Get Started?</h2>
               <p className="text-xl text-background/80 max-w-2xl mx-auto">
-                Let's discuss your project and create something amazing together
+                Let&#39;s discuss your project and create something amazing together
               </p>
             </div>
             <Button size="lg" variant="secondary" asChild>

@@ -81,7 +81,7 @@ export default function ServicesPage() {
           <h1 className="text-4xl lg:text-5xl font-bold">Our Services</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We offer comprehensive digital solutions to help your business succeed in the modern digital landscape. From
-            website development to digital marketing, we've got you covered.
+            website development to digital marketing, we&#39;ve got you covered.
           </p>
         </motion.div>
 
@@ -169,7 +169,7 @@ export default function ServicesPage() {
           <div className="space-y-4">
             <h2 className="text-3xl lg:text-4xl font-bold">Ready to Start Your Project?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Let's discuss your requirements and create a custom solution that fits your needs and budget
+              Let&#39;s discuss your requirements and create a custom solution that fits your needs and budget
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
